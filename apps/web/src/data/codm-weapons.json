@@ -1,0 +1,38 @@
+{
+  "weapons": [
+    { "id": "ak47", "name": "AK-47", "type": "Assault Rifle" },
+    { "id": "m4", "name": "M4", "type": "Assault Rifle" },
+    { "id": "asm10", "name": "ASM10", "type": "Assault Rifle" },
+    { "id": "kilo141", "name": "Kilo 141", "type": "Assault Rifle" },
+    { "id": "mp5", "name": "MP5", "type": "SMG" },
+    { "id": "qq9", "name": "QQ9", "type": "SMG" },
+    { "id": "pp19", "name": "PP19 Bizon", "type": "SMG" },
+    { "id": "dlq33", "name": "DLQ33", "type": "Sniper" },
+    { "id": "arctic50", "name": "Arctic .50", "type": "Sniper" },
+    { "id": "xpr50", "name": "XPR-50", "type": "Sniper" },
+    { "id": "by15", "name": "BY15", "type": "Shotgun" },
+    { "id": "striker", "name": "Striker", "type": "Shotgun" },
+    { "id": "hbra3", "name": "HBRa3", "type": "LMG" },
+    { "id": "chopper", "name": "Chopper", "type": "LMG" }
+  ],
+  "attachmentSlots": ["Muzzle", "Barrel", "Underbarrel", "Stock", "Laser", "Ammunition", "Rear Grip", "Perk"],
+  "attachments": {
+    "Muzzle": ["No Attachment", "Monolithic Suppressor", "MIP Light Flash Guard", "OWC Compensator", "Tactical Suppressor", "Lightweight Suppressor"],
+    "Barrel": ["No Attachment", "OWC Marksman", "RTC Light Barrel", "MIP Extended Light Barrel", "OWC Ranger"],
+    "Underbarrel": ["No Attachment", "Ranger Foregrip", "Strike Foregrip", "Bipod", "Tactical Foregrip", "Merc Foregrip"],
+    "Stock": ["No Attachment", "RTC Steady Stock", "YKM Combat Stock", "No Stock", "RTC Marathon Stock"],
+    "Laser": ["No Attachment", "OWC Laser - Tactical", "MIP Laser 5mW", "Aim-Assist Laser"],
+    "Ammunition": ["No Attachment", "Large Extended Mag A", "Large Extended Mag B", "FMJ Rounds", "Hollow Point Rounds"],
+    "Rear Grip": ["No Attachment", "Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+    "Perk": ["No Attachment", "Sleight of Hand", "FMJ", "Restock", "Presence of Mind", "Fully Loaded"]
+  },
+  "perks": [
+    { "slot": 1, "options": ["Agile", "Persistence", "Fast Recover", "Flak Jacket", "Lightweight", "Hardline"] },
+    { "slot": 2, "options": ["Ghost", "Cold-Blooded", "Hard Wired", "Tracker", "Kill Chain"] },
+    { "slot": 3, "options": ["Amped", "Alert", "Dead Silence", "Shrapnel", "Tune Up"] }
+  ],
+  "equipment": {
+    "lethal": ["Frag Grenade", "Semtex", "Thermite", "Throwing Knife", "Trip Mine", "C4"],
+    "tactical": ["Flashbang", "Smoke Grenade", "Stun Grenade", "Trophy System", "Decoy Grenade", "Concussion Grenade"]
+  }
+}

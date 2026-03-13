@@ -1,0 +1,15 @@
+import type { APIRouteHandler } from "./types";
+import type { CreateBlogPostRoute, ListBlogPostsRoute, GetMyBlogPostsRoute, CheckSlugRoute, IncrementViewRoute, GetBlogPostRoute, UpdateBlogPostRoute, DeleteBlogPostRoute, SubmitBlogPostRoute, ApproveBlogPostRoute, RejectBlogPostRoute, GetPublicBlogPostsRoute, GetPublicBlogPostBySlugRoute } from "./routes/blog.route";
+export declare const createBlogPost: APIRouteHandler<CreateBlogPostRoute>;
+export declare const listBlogPosts: APIRouteHandler<ListBlogPostsRoute>;
+export declare const getBlogPost: APIRouteHandler<GetBlogPostRoute>;
+export declare const updateBlogPost: APIRouteHandler<UpdateBlogPostRoute>;
+export declare const deleteBlogPost: APIRouteHandler<DeleteBlogPostRoute>;
+export declare const submitBlogPost: APIRouteHandler<SubmitBlogPostRoute>;
+export declare const approveBlogPost: APIRouteHandler<ApproveBlogPostRoute>;
+export declare const rejectBlogPost: APIRouteHandler<RejectBlogPostRoute>;
+export declare const getPublicBlogPosts: APIRouteHandler<GetPublicBlogPostsRoute>;
+export declare const getMyBlogPosts: APIRouteHandler<GetMyBlogPostsRoute>;
+export declare const checkSlug: APIRouteHandler<CheckSlugRoute>;
+export declare const incrementView: APIRouteHandler<IncrementViewRoute>;
+export declare const getPublicBlogPostBySlug: APIRouteHandler<GetPublicBlogPostBySlugRoute>;
